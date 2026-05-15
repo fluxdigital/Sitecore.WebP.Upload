@@ -1,0 +1,19 @@
+{
+  "namespace": "Foundation.Sitecore.WebP.Upload",
+  "items": {
+    "includes": [
+      {
+        "name": "templates-unversioned",
+        "path": "/sitecore/templates/System/Media/Unversioned/WebP",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "CreateAndUpdate"
+      },
+      {
+        "name": "templates-versioned",
+        "path": "/sitecore/templates/System/Media/Versioned/WebP",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "CreateAndUpdate"
+      }
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+<project>
+  <Metadata>
+    <metadata>
+      <PackageName>Sitecore WebP Upload</PackageName>
+      <Author>Adam Seabridge</Author>
+      <Version>1.0.0</Version>
+      <Revision></Revision>
+      <License></License>
+      <Comment></Comment>
+      <Attributes></Attributes>
+      <Readme>Adds support for uploading WebP images to the Sitecore 10.4 Media Library.
+
+Registers WebP as a media type with the correct MIME type and item templates.
+Includes custom image processing via SkiaSharp to read dimensions and generate
+thumbnails without any OS-level codec installation.
+
+Files installed:
+
+Config:
+  App_Config/Include/Foundation/Sitecore.WebP.Upload/
+    Foundation.Sitecore.WebP.Upload.config
+
+Binaries:
+  bin/Foundation.Sitecore.WebP.Upload.dll
+  bin/SkiaSharp.dll
+  bin/x64/libSkiaSharp.dll
+
+Items as Resources:
+  sitecore modules/items/master/
+    items.master.Sitecore.WebP.Upload.dat</Readme>
+      <Publisher>Adam Seabridge</Publisher>
+      <PostStep></PostStep>
+      <PackageID></PackageID>
+    </metadata>
+  </Metadata>
+  <SaveProject>True</SaveProject>
+  <Sources>
+    <xfiles>
+      <Entries>
+        <x-item>/App_Config/Include/Foundation/Sitecore.WebP.Upload/Foundation.Sitecore.WebP.Upload.config</x-item>
+        <x-item>/bin/Foundation.Sitecore.WebP.Upload.dll</x-item>
+        <x-item>/bin/SkiaSharp.dll</x-item>
+        <x-item>/bin/x64/libSkiaSharp.dll</x-item>
+        <x-item>/sitecore modules/items/master/items.master.Sitecore.WebP.Upload.dat</x-item>
+      </Entries>
+      <Converter>
+        <FileToEntryConverter>
+          <Root>/</Root>
+          <Transforms />
+        </FileToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>WebP Upload Files</Name>
+    </xfiles>
+  </Sources>
+  <Converter>
+    <TrivialConverter>
+      <Transforms />
+    </TrivialConverter>
+  </Converter>
+  <Include />
+  <Exclude />
+  <Name>Sitecore WebP Upload</Name>
+</project>

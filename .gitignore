@@ -1,0 +1,34 @@
+# may contain OAuth secrets, do not commit
+.sitecore/user.json
+
+# package reference cache
+.sitecore/package-cache
+
+# CLI ephemeral cache
+.sitecore/.cache
+
+# Ephemeral index caches used by serialization, do not commit
+.scindex
+
+# Don't commit packages
+*.itempackage
+*.sicpackage
+
+# .NET build outputs
+bin/
+obj/
+
+# Distributable zip - publish via GitHub Releases instead
+*.zip
+
+# Package build staging directory
+_staging/
+
+# IAR .dat files are build outputs (regenerated via sitecore itemres create)
+*.dat
+
+# Claude Code local settings
+.claude/
+
+# Blog post drafts
+WebP-Upload-Blog-Post.md

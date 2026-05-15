@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <AssemblyName>Foundation.Sitecore.WebP.Upload</AssemblyName>
+    <RootNamespace>Foundation.Sitecore.WebP.Upload</RootNamespace>
+    <Nullable>disable</Nullable>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Sitecore.Kernel">
+      <HintPath>..\..\..\..\..\..\..\inetpub\wwwroot\sc104.sc\bin\Sitecore.Kernel.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Drawing" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SkiaSharp" Version="2.88.8" />
+    <PackageReference Include="SkiaSharp.NativeAssets.Win32" Version="2.88.8" />
+  </ItemGroup>
+
+</Project>
