@@ -4,8 +4,11 @@
 # package reference cache
 .sitecore/package-cache
 
-# CLI ephemeral cache
-.sitecore/.cache
+# Sitecore CLI local config and cache
+.sitecore/
+
+# VS Code workspace settings
+.vscode/
 
 # Ephemeral index caches used by serialization, do not commit
 .scindex
